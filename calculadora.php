@@ -7,7 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: red;
+           background: linear-gradient(to bottom, red, black);
+            min-height: 100vh;
+            margin: 0; 
+            color: white; 
         }
     </style>
 </head>
