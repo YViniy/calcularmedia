@@ -42,7 +42,6 @@
             <button type="submit" class="btn btn-secondary">Calcular a Média</button>
         </form>
 
-        <!-- PHP para processamento do formulário -->
         <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['media1'], $_POST['media2'], $_POST['media3'], $_POST['media4'])) {
 
